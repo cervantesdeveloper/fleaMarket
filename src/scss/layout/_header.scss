@@ -1,0 +1,15 @@
+@use "../base/variables" as v;
+
+.header{
+    padding: 1.5rem;
+    text-align: center;
+    h1{
+        margin: 0;
+        font-size: 8vw;
+        line-height: 1;
+
+        @media (orientation:landscape) {
+            font-size: 4vw;
+        }
+    }
+}

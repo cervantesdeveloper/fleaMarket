@@ -1,0 +1,38 @@
+@use "../base/variables" as v;
+
+.card{
+    width: 100%;
+    max-width: 327px;
+    border-radius: .5rem;
+    box-shadow: 0 0 15px v.$grey-medium;
+    padding: 1rem;
+}
+
+.card__header{
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: v.$grey-dark;
+}
+
+.card__media{
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.card_supporting-text{
+    p{
+        font-size: 1.125rem;
+        line-height: 1.5;
+    }
+    
+    p:not(:last-child){
+        margin-bottom: 1rem;
+    }
+
+    p:last-child{
+        color: v.$purple;
+        font-weight: 700;
+    }
+}

@@ -4,10 +4,37 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/scss/app.scss  ">
     <title>Bazar</title>
   </head>
   <body>
+    <header class="header">
+        <h1>BAZAR</h1>
+    </header>
+
+    <section class="container">
+        <div class="contained gallery">
+            <figure class="card">
+                <p class="card__header">Sudadera hombre</p>
+                <div class="card__media">
+                    <picture>
+                        <source srcset="sudadera_01.webp" type="image/webp">
+                        <img width="327" height="327" loading="lazy" src="sudadera_01.jpg" alt="sudadera">
+                    </picture>
+                </div>
+                
+                <div class="card_supporting-text">
+                    <p>Sudadera blanca con cierre y capucha, estampado HILFIGER <b>talla: XL</b></p>
+                    <p>Uso: Poco</p>
+                    <p>Precio: $200</p>
+                </div>
+            </figure>
+        </div>
+    </section>
     
-    
+    <script type="module" src="./main.js"></script>
   </body>
 </html>

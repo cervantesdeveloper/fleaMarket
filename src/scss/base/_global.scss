@@ -1,0 +1,45 @@
+@use "variables" as v;
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: v.$main;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background: v.$white;
+    color: v.$grey-dark;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container{
+    padding: 1.5rem;
+
+    @media (min-width:v.$desktop) {
+        padding: 1.5rem 7.5rem;
+    }
+}
+
+.contained{
+    max-width: 1200px;
+    margin: 0 auto;
+}
