@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Sudadera Hombre",
+        "picture": "sudadera_01",
+        "description": "Sudadera blanca con cierre y capucha, estampado HILFIGER talla: XL",
+        "use": "poco",
+        "price": 200
+    },
+
+    {
+        "name": "Sudadera Hombre",
+        "picture": "sudadera_02",
+        "description": "Sudadera blanca con cierre y capucha, estampado HILFIGER talla: XL",
+        "use": "poco",
+        "price": 200
+    },
+
+    {
+        "name": "Sudadera Hombre",
+        "picture": "sudadera_03",
+        "description": "Sudadera blanca con cierre y capucha, estampado HILFIGER talla: XL",
+        "use": "poco",
+        "price": 200
+    },
+
+    {
+        "name": "Sudadera Hombre",
+        "picture": "sudadera_04",
+        "description": "Sudadera blanca con cierre y capucha, estampado HILFIGER talla: XL",
+        "use": "poco",
+        "price": 200
+    }
+]

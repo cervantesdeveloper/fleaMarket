@@ -1,2 +1,9 @@
 @use "../base/variables" as v;
 
+.gallery{
+    display: grid;
+    gap: 1.5rem;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(327px, 1fr));
+    justify-content: center;
+}
